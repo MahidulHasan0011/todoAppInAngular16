@@ -1,0 +1,4 @@
+<div class="inputFButton">
+  <input class="inputFild" type="text" placeholder="Enter your todo list" #parentInputData  />
+  <button class="buttonAdd" type="button"(click)="addItem(parentInputData.value); parentInputData.value=''" >Add</button>
+</div>

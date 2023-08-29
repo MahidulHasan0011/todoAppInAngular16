@@ -1,0 +1,85 @@
+body{
+  background-color: #8F9193;
+  // position: absolute;
+}
+.appMainSection{
+
+
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    // position: relative;
+    // margin: auto;
+
+    /* height: auto; */
+    // height: 100vh;
+
+}
+.appSection{
+
+    width: 500px;
+    border-radius: 10px;
+    // height: 600px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: white;
+    color: black;
+
+}
+.list{
+  list-style: none;
+  padding: 0px 40px;
+}
+.list input{
+    text-align: start;
+    padding: 15px 15px 15px 15px;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    color: gray;
+    background: floralwhite;
+    margin-bottom: 10px;
+    // overflow-x: scroll;
+    border-radius: 6px;
+    line-height: 25px;
+    // width: 94%;
+    word-wrap
+: break-word;
+}
+.list input:hover {
+  color: black;
+  outline: auto;
+}
+.todoList{
+  text-align: start;
+  padding: 0px 40px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.liWithDLTicon {
+  display: grid;
+  grid-template-columns: 81% 13%;
+  align-items: center;
+  column-gap: 30px;
+}
+
+
+
+/* Webkit (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+
